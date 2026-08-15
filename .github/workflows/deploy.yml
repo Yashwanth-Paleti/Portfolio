@@ -27,7 +27,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
@@ -35,6 +35,16 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Verify build output
+        run: |
+          echo "Checking build output..."
+          echo "Current directory:"
+          pwd
+          echo "Root contents:"
+          ls -la
+          echo "Out directory:"
+          ls -la out
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
