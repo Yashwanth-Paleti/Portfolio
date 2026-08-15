@@ -2,7 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  // We can add MDX support or other configurations here if needed.
+  output: "export",
+  basePath: "/Portfolio",
+  assetPrefix: "/Portfolio/",
 };
 
 export default nextConfig;
