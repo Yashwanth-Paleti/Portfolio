@@ -15,13 +15,13 @@ export const Connect: React.FC = () => {
       />
 
       <div className="retro-bevel-out bg-retro-cream p-6 md:p-10 max-w-2xl mx-auto text-center space-y-6 select-none">
-        
+
         {/* Connection Header */}
         <div className="space-y-2">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-retro-beige font-mono text-[9px] text-retro-amber border border-retro-border/40 uppercase">
             <Terminal className="w-3.5 h-3.5" /> AWAITING HANDSHAKE...
           </div>
-          
+
           <h3 className="font-pixel text-xl sm:text-2xl md:text-3xl text-retro-charcoal tracking-wide">
             HAVE AN INTERESTING PROBLEM?
           </h3>
@@ -32,10 +32,10 @@ export const Connect: React.FC = () => {
 
         {/* Links block */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4">
-          
+
           {/* Email */}
           <a
-            href="mailto:yashwanth.paleti@example.com" // Placeholder email, Yashwanth can update
+            href="mailto:[yashwanthpaleti2006@gmail.com]"
             className="focus:outline-none"
           >
             <PixelButton variant="primary" className="w-full flex items-center justify-center gap-2 text-xs py-2.5">
@@ -46,7 +46,7 @@ export const Connect: React.FC = () => {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yashwanthpaleti"
+            href="https://linkedin.com/in/yashwanth-paleti"
             target="_blank"
             rel="noopener noreferrer"
             className="focus:outline-none"
@@ -59,7 +59,7 @@ export const Connect: React.FC = () => {
 
           {/* GitHub */}
           <a
-            href="https://github.com/yashwanthpaleti"
+            href="https://github.com/Yashwanth-Paleti"
             target="_blank"
             rel="noopener noreferrer"
             className="focus:outline-none"
@@ -72,7 +72,7 @@ export const Connect: React.FC = () => {
 
           {/* LeetCode */}
           <a
-            href="https://leetcode.com/u/yashwanthpaleti/" // Yashwanth can adjust path
+            href="https://leetcode.com/u/yashwanth-paleti/" // Yashwanth can adjust path
             target="_blank"
             rel="noopener noreferrer"
             className="focus:outline-none"
