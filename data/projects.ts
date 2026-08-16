@@ -26,8 +26,8 @@ export const projects: Project[] = [
       'Incorporate graph-based routing for multi-hop study group formation',
       'Add automated lecture note summarization using lightweight local models'
     ],
-    githubUrl: 'https://github.com/yashwanthpaleti/campusconnect',
-    liveUrl: 'https://campusconnect.yashwanth.dev'
+    githubUrl: 'https://github.com/Yashwanth-Paleti/campus-connect',
+    liveUrl: 'https://campus-connect-nine-xi.vercel.app'
   },
   {
     id: '002',
