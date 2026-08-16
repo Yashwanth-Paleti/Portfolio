@@ -33,7 +33,7 @@ export const Hero: React.FC = () => {
             </span>
             <div className="w-1.5 h-1.5 bg-retro-green rounded-full animate-ping" />
           </div>
-          
+
           <h1 className="font-pixel text-4xl sm:text-5xl md:text-6xl text-retro-charcoal tracking-wide leading-none">
             YASHWANTH PALETI
           </h1>
@@ -61,7 +61,7 @@ export const Hero: React.FC = () => {
             EXPLORE WORK
           </PixelButton>
           <a
-            href="https://github.com/yashwanthpaleti"
+            href="https://github.com/Yashwanth-Paleti"
             target="_blank"
             rel="noopener noreferrer"
             className="focus:outline-none"
@@ -72,7 +72,7 @@ export const Hero: React.FC = () => {
             </PixelButton>
           </a>
           <a
-            href="https://linkedin.com/in/yashwanthpaleti"
+            href="https://linkedin.com/in/yashwanth-paleti"
             target="_blank"
             rel="noopener noreferrer"
             className="focus:outline-none"
